@@ -4,14 +4,12 @@
     box-sizing: border-box;
 }
 
-/* Header */
 nav {
     height: auto;
     background-color: #2a3489;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10 20px;
 }
 
 nav .logo {
@@ -71,13 +69,11 @@ nav .logo img {
     cursor: pointer;
 }
 
-/* Body */
 body {
     min-height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Chemin d'accès à la page en haut à gauche */
 .chemin {
     background-color: #ffffff;
     padding: 20px 50px;
@@ -96,11 +92,6 @@ body {
     text-decoration: underline;
 }
 
-
-
-
-
-/* Footer */
 footer {
     position: relative;
     background-color: #2a3489;
@@ -119,7 +110,6 @@ footer {
 
 .footer-content .logo {
     margin: auto;
-    padding: auto;
     margin-bottom: 30px;
     display: flex;
     align-items: center;
@@ -130,7 +120,6 @@ footer {
     height: auto;
 }
 
-/* Bouton pour scroller jusqu'en haut de la page */
 .scroll-top {
     position: absolute;
     bottom: 330px;
@@ -157,21 +146,18 @@ footer {
     transform: scale(1.1);
 }
 
-/* Réseaux sociaux */
 .social {
     display: flex;
-    border: 1px solid #ffffff;
+    border: #ffffff solid 1px;
     border-radius: 35px;
     margin: 0 100px;
     margin-top: 5px;
     margin-bottom: 50px;
     padding: 10px 10px;
-    /* Ajout d'espace en haut et en bas (20px) */
     width: 260px;
     height: auto;
 }
 
-/* Faebook */
 .social .facebook-btn {
     padding: 0 5px;
     bottom: 100px;
@@ -198,7 +184,6 @@ footer {
     transform: scale(1.1);
 }
 
-/* Instagram */
 .social .instagram-btn {
     padding: 0 5px;
     bottom: 100px;
@@ -225,7 +210,6 @@ footer {
     transform: scale(1.1);
 }
 
-/* X (Twitter) */
 .social .x-btn {
     padding: 0 5px;
     bottom: 100px;
@@ -252,7 +236,6 @@ footer {
     transform: scale(1.1);
 }
 
-/* Linkedin */
 .social .linkedin-btn {
     padding: 0 5px;
     bottom: 100px;
@@ -295,7 +278,6 @@ footer {
     text-decoration: underline;
 }
 
-/* Format mobile */
 @media screen and (max-width: 1220px) {
     .navbar {
         padding: 0;
@@ -309,7 +291,7 @@ footer {
         top: 0;
         left: 0;
         position: fixed;
-        background-color: rgba(0, 0, 0, 0.37);
+        background-color: rgb(0, 0, 0, 0.37);
         backdrop-filter: blur(7px);
         width: 100%;
         height: 100vh;
@@ -337,13 +319,12 @@ footer {
 
     .social {
         display: flex;
-        border: 1px solid #ffffff;
+        border: #ffffff solid 1px;
         border-radius: 35px;
         margin: 0 100px;
         margin-top: 5px;
         margin-bottom: 50px;
         padding: 10px 10px;
-        /* Ajout d'espace en haut et en bas (20px) */
         width: 260px;
         height: auto;
     }
@@ -353,14 +334,13 @@ footer {
     }
 }
 
-/*css body des conditions utilisations*/
 .terms-container {
     max-width: 90%;
     margin: 50px auto;
     padding: 20px;
-    background-color: rgba(211, 211, 211, 0.41);
+    background-color: rgb(211, 211, 211, 0.41);
     border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
     font-family: 'Roboto', sans-serif;
     color: #333;
 }
@@ -390,16 +370,16 @@ footer {
 .terms-section {
     margin-bottom: 30px;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgb(255, 255, 255, 0.8);
     border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .terms-section:hover {
     transform: translateY(-5px);
-    background-color: rgba(255, 255, 255, 1);
-    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.15);
+    background-color: rgb(255, 255, 255, 1);
+    box-shadow: 0 6px 8px rgb(0, 0, 0, 0.15);
 }
 
 .terms-section h2 {
@@ -414,14 +394,13 @@ footer {
     margin: 0;
 }
 
-/*css body des mentions légales*/
 .legal-container {
     margin: 20px auto;
     max-width: 900px;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgb(255, 255, 255, 0.9);
     border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
 }
 
 .legal-header h1 {
@@ -468,7 +447,7 @@ footer {
     background-color: #f9f9f9;
     border-radius: 10px;
     padding: 15px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
 }
 
 .profile img {
@@ -477,7 +456,7 @@ footer {
     border-radius: 50%;
     margin-bottom: 10px;
     object-fit: cover;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 6px rgb(0, 0, 0, 0.2);
 }
 
 .profile h3 {

@@ -10,7 +10,6 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10 20px;
 }
 
 nav .logo {
@@ -75,7 +74,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Chemin d'accès à la page en haut à gauche */
 .chemin {
     background-color: #ffffff;
     padding: 20px 50px;
@@ -112,7 +110,6 @@ footer {
 
 .footer-content .logo {
     margin: auto;
-    padding: auto;
     margin-bottom: 30px;
     display: flex;
     align-items: center;
@@ -151,12 +148,12 @@ footer {
 
 .social {
     display: flex;
-    border: 1px solid #ffffff;
+    border: #ffffff solid 1px;
     border-radius: 35px;
     margin: 0 100px;
     margin-top: 5px;
     margin-bottom: 50px;
-    padding: 10px 10px; /* Ajout d'espace en haut et en bas (20px) */
+    padding: 10px 10px;
     width: 260px;
     height: auto;
 }
@@ -264,6 +261,7 @@ footer {
     color: #2a3489;
     transform: scale(1.1);
 }
+
 .important {
     text-align: center;
     padding: 10px;
@@ -288,12 +286,12 @@ footer {
     .navbar .menu-hamburger {
         display: block;
     }
-    
+
     .nav-links {
         top: 0;
         left: 0;
         position: fixed;
-        background-color: rgba(0, 0, 0, 0.37);
+        background-color: rgb(0, 0, 0, 0.37);
         backdrop-filter: blur(7px);
         width: 100%;
         height: 100vh;
@@ -321,31 +319,29 @@ footer {
 
     .social {
         display: flex;
-        border: 1px solid #ffffff;
+        border: #ffffff solid 1px;
         border-radius: 35px;
         margin: 0 100px;
         margin-top: 5px;
         margin-bottom: 50px;
-        padding: 10px 10px; /* Ajout d'espace en haut et en bas */
+        padding: 10px 10px;
         width: 260px;
         height: auto;
     }
 
     .social div {
-        padding: 0 5px; /* Réduit les espaces entre les icônes pour un alignement plus serré */
+        padding: 0 5px;
     }
 }
-
-/*Fomualire de contacte*/
 
 .contact-section {
     padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #ffffff; 
-    border-radius: 8px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
 }
 
 .contact-section h1 {
@@ -356,7 +352,7 @@ footer {
     font-size: 28px;
     text-align: center;
     margin-bottom: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 2px 4px rgb(0, 0, 0, 0.1);
 }
 
 .contact-form {
@@ -387,7 +383,7 @@ footer {
     width: 100%;
     padding: 10px;
     font-size: 16px;
-    border: 1px solid #ccc;
+    border: #ccc solid 1px;
     border-radius: 5px;
     box-sizing: border-box;
     transition: border-color 0.3s ease;

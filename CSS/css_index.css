@@ -10,7 +10,6 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10 20px;
 }
 
 nav .logo {
@@ -105,7 +104,7 @@ body {
     bottom: 20px;
     left: 20px;
     color: white;
-    font-size: 32px; 
+    font-size: 32px;
     font-weight: bold;
     padding: 10px 20px;
     border-radius: 5px;
@@ -131,7 +130,7 @@ button {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgb(0, 0, 0, 0);
     color: white;
     border: none;
     font-size: 30px;
@@ -173,14 +172,14 @@ button:hover {
 }
 
 .bienvenue-page {
-    background-color: rgba(211, 211, 211, 0.41);
+    background-color: rgb(211, 211, 211, 0.41);
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
     margin-bottom: 50px;
     border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
 }
 
 .bienvenue-page h1 {
@@ -214,26 +213,26 @@ button:hover {
     margin: 0 auto;
     line-height: 1.6;
     font-family: 'Roboto', sans-serif;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgb(255, 255, 255, 0.8);
     border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
     transition: all 0.3s ease;
 }
 
 .bienvenue-page p:hover {
     color: #2a3489;
     transform: translateY(-5px);
-    background-color: rgba(255, 255, 255, 1);
-    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.15);
+    background-color: rgb(255, 255, 255, 1);
+    box-shadow: 0 6px 8px rgb(0, 0, 0, 0.15);
 }
 
 .about-us {
-    background-color: rgba(42, 52, 137, 0.1);
+    background-color: rgb(42, 52, 137, 0.1);
     text-align: center;
     padding: 40px 20px;
     margin: 50px auto;
     border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
 }
 
 .about-us h2 {
@@ -257,7 +256,7 @@ button:hover {
     padding: 20px;
     margin-bottom: 40px;
     border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
 }
 
 .testimonials-carousel-container h2 {
@@ -334,7 +333,6 @@ footer {
 
 .footer-content .logo {
     margin: auto;
-    padding: auto;
     margin-bottom: 30px;
     display: flex;
     align-items: center;
@@ -373,7 +371,7 @@ footer {
 
 .social {
     display: flex;
-    border: 1px solid #ffffff;
+    border: #ffffff solid 1px;
     border-radius: 35px;
     margin: 0 100px;
     margin-top: 5px;
@@ -511,12 +509,12 @@ footer {
     .navbar .menu-hamburger {
         display: block;
     }
-    
+
     .nav-links {
         top: 0;
         left: 0;
         position: fixed;
-        background-color: rgba(0, 0, 0, 0.37);
+        background-color: rgb(0, 0, 0, 0.37);
         backdrop-filter: blur(7px);
         width: 100%;
         height: 100vh;
@@ -548,7 +546,7 @@ footer {
 
     .social {
         display: flex;
-        border: 1px solid #ffffff;
+        border: #ffffff solid 1px;
         border-radius: 35px;
         margin: 0 100px;
         margin-top: 5px;
@@ -562,4 +560,3 @@ footer {
         padding: 0 5px;
     }
 }
-
